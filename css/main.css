@@ -13,4 +13,64 @@ ul {
 
 body{
     font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
 }
+
+.head {
+    width: 1000px;
+    padding: 40px;
+    background-color: #ccc;
+    text-align: center;
+    margin: 0 auto;
+    /* margin: 30px 20px; 위/아래 */
+    /* margin: 10px 0 30px 20px;  */
+    /* 위/오른/아래/왼 */
+}
+.head h2 {
+    font-size: 40px;
+}
+.nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.nav ul {
+    width: 1000px;
+    /* 블록요소라서 width사용 */
+    margin: 0 auto;
+
+}
+.nav ul li {
+    display: inline-block;
+    /* 블록을 인라인으로 */
+    height: 80px;
+}
+.nav ul li a {
+    /* a는 인라인요소라 높이없음 그래서 블록으로*/
+    display: block;
+    height: 80px; 
+    /* background-color: yellow; */
+    line-height: 80px; 
+    /* 글자 중앙으로 */
+    padding: 0 30px;
+}
+.contents {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contents h2 {
+    margin-bottom: 30px;
+    /* margin: 0 0 30px 0; */
+}
+.contents p {
+    margin-bottom: 20px;
+}
+.bottom {
+    padding: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #eee;
+}
+
