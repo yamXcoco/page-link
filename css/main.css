@@ -19,7 +19,7 @@ body{
 .head {
     width: 1000px;
     padding: 40px;
-    background-color: #ccc;
+    /* background-color: #ccc; */
     text-align: center;
     margin: 0 auto;
     /* margin: 30px 20px; 위/아래 */
@@ -58,6 +58,10 @@ body{
     margin: 0 auto;
     padding: 30px;
 }
+.contents .img {
+    width: 1000px;
+    margin-bottom: 30px;
+}
 
 .contents h2 {
     margin-bottom: 30px;
@@ -68,6 +72,7 @@ body{
 }
 .items {
     display: flex;
+    margin-bottom: 30px;
 }
 .items .image { 
     background-color: #ddd;
